@@ -1,0 +1,82 @@
+
+body {
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #ff4d6d url("img/valentine-background.jpg") no-repeat 50% 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Georgia", serif;
+  font-size: 42px;
+  line-height: 48px;
+  color: #fff5f5;
+}
+
+h2 {
+  padding-bottom: 12px;
+  border-bottom: 2px solid #ffffff;
+}
+
+.site-header {
+  margin-bottom: 30px;
+}
+
+.activities-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 10px solid #ffccd5;
+  color: #fff5f5;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.site-header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.feature-love {
+  padding-top: 60px;
+  background-image: url("img/heart.svg");
+}
+
+.feature-gift {
+  padding-top: 60px;
+  background-image: url("img/gift.svg");
+}
+
+.feature-memory {
+  padding-top: 60px;
+  background-image: url("img/memory.svg");
+}
+
+.activities-list {
+  padding: 0;
+  list-style: none;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  color: #fff5f5;
+}
