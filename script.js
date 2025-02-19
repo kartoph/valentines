@@ -25,8 +25,13 @@ const arrayOfLoveWishes = [
   
 
 document.getElementById('Wishes_btn').addEventListener('click' , () => {
-    //alert('Button clicked!');
+
+  console.log('Button clicked!');
+    
     let index = Math.floor(Math.random() * arrayOfLoveWishes.length)
+    
+  console.log('Номер елементу масиву:', index);
+
     document.getElementById('p_Wishes').innerText = arrayOfLoveWishes[index];   
 
 })
