@@ -70,7 +70,29 @@ h2 {
   background-image: url("img/chocolate-bar.png");
 }
 
+.wishes {
+ text-align: center;
+  margin-top: 30px;
+}
 
+#Wishes_btn {
+  background-color: #f599aa;
+  color: white;
+  border: 5px solid #f599aa;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+#p_wishes {
+height: 150px;
+font-size: 28px;
+line-height: 40px;
+color: #f599aa;
+text-align: justify;
+
+}
 
 .activities-list {
   padding: 0;
