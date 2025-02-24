@@ -106,3 +106,14 @@ text-align: justify;
   color: black;
 }
 
+/* Підвал з кнопкою купівлі та відображення ❤ */
+.site-footer p{
+background-color: #f599aa;
+padding: 10px 20px;
+border-radius: 20px 20px;
+border: 1px solid  #f588aa;
+cursor: pointer;
+}
+.site-footer p:last-child{
+  cursor: default;
+} 
